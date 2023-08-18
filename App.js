@@ -160,6 +160,48 @@ export default function App() { // The main component of the application is defi
   );
 }
 
+// container: This style is intended for the main container view.
+
+// flex: 1: The container takes up all available space.
+// paddingTop: Constants.statusBarHeight: Adds padding to the top of the container, accounting for the device's status bar height.
+// backgroundColor: '#fff': Sets the background color to white.
+// paddingHorizontal: 18: Adds horizontal padding of 18 units to the container.
+// section: This style is meant for sections in the UI.
+
+// marginTop: 60: Adds a top margin of 60 units.
+// marginBottom: 60: Adds a bottom margin of 60 units.
+// pSection: This style is intended for subsections within a section.
+
+// marginTop: 10: Adds a top margin of 10 units.
+// flexDirection: 'row': Sets the direction of child elements to be horizontal.
+// justifyContent: 'space-between': Positions child elements with space between them.
+// alignItems: 'center': Aligns child elements along the center vertically.
+// title: This style is for titles.
+
+// margin: 24: Adds a margin of 24 units.
+// fontSize: 20: Sets the font size to 20 units.
+// fontWeight: 'bold': Sets the font weight to bold.
+// textAlign: 'center': Centers the text horizontally.
+// bTextTime: This style is for large text related to time.
+
+// fontSize: 76: Sets the font size to 76 units.
+// fontWeight: 'bold': Sets the font weight to bold.
+// textAlign: 'center': Centers the text horizontally.
+// mTextTime: This style is for medium-sized text related to time.
+
+// fontSize: 18: Sets the font size to 18 units.
+// textAlign: 'center': Centers the text horizontally.
+// bTextPrayer: This style is for large bold text related to prayer.
+
+// fontSize: 40: Sets the font size to 40 units.
+// fontWeight: 'bold': Sets the font weight to bold.
+// textAlign: 'right': Aligns the text to the right.
+// mTextPrayer: This style is for medium-sized bold text related to prayer.
+
+// fontSize: 25: Sets the font size to 25 units.
+// fontWeight: 'bold': Sets the font weight to bold.
+// textAlign: 'left': Aligns the text to the left.
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
